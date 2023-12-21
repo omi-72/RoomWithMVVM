@@ -48,7 +48,6 @@ class MainActivity : AppCompatActivity() {
         addCloseImg.setOnClickListener { addTaskDialog.dismiss() }
 
 
-
         val addETTitle = addTaskDialog.findViewById<TextInputEditText>(R.id.edTaskTitle)
         val addETTitleL = addTaskDialog.findViewById<TextInputLayout>(R.id.edTaskTitleL)
 
